@@ -51,10 +51,13 @@ make mysh framesize=12 varmemsize=8
 **Compile and run shell with custom memory config:**
 
 make mysh framesize=12 varmemsize=8
+
 ./mysh
 
 **Example of accepted commands:**
 
 exec script1 script2 RR     # Run multiple paged programs
+
 run script3                 # Run a single paged script
+
 quit                        # Clean shutdown and cleanup
